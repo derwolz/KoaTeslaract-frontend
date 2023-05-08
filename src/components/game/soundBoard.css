@@ -1,0 +1,29 @@
+.soundButton {
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000;
+    box-shadow: -3px -3px 1px 1px inset #333;
+    background-color: #ccc;
+    min-height: 3em;
+    min-width: 10em;
+    max-width: 20em;
+    margin: 4px 8px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+.soundButton:hover {
+    background-color: #111;
+}
+.SoundGrid {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80vw;
+
+}
